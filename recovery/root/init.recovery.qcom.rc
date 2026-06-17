@@ -26,6 +26,8 @@
 #
 
 import /init.recovery.qcom_decrypt.rc
+import /init.recovery.usb.qcom.rc
+import /init.recovery.usb.rc
 
 on early-init
     write /proc/sys/kernel/firmware_config/force_sysfs_fallback 1
