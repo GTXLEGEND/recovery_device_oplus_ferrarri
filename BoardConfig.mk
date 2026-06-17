@@ -172,7 +172,10 @@ RECOVERY_BINARY_SOURCE_FILES += $(TARGET_OUT_EXECUTABLES)/strace
 #TARGET_RECOVERY_DEVICE_MODULES += twrpdec
 #RECOVERY_BINARY_SOURCE_FILES += $(TARGET_RECOVERY_ROOT_OUT)/sbin/twrpdec
 
-#
+
+# Max brightness
+TW_MAX_BRIGHTNESS := 840
+
 # For local builds only
 #
 # TWRP zip installer
